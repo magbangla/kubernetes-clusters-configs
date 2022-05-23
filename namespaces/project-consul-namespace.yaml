@@ -1,8 +1,12 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  project: "consul"
   creationTimestamp: null
   name: project-consul-namespace
+  labels:
+    environment: dev
+    app: consul
+    project: consul
+    author: magbangla
 spec: {}
 status: {}
